@@ -1,9 +1,13 @@
 import './App.css';
+import SearchBar from './Components/SearchBar'
+import UserGallery from './Components/UserGallery/UserGallery';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1> User Profile </h1>
+      <SearchBar />
+      <UserGallery />
     </div>
   );
 }
